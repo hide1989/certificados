@@ -1,4 +1,4 @@
-package co.com.sofka.oursofka.workcertificate.config;
+package co.com.sofka.oursofka.workcertificate;
 
 import com.mongodb.reactivestreams.client.MongoClient;
 import com.mongodb.reactivestreams.client.MongoClients;

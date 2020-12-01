@@ -34,7 +34,7 @@
         <dependency>
             <groupId>co.com.sofka</groupId>
             <artifactId>oursofka-back-commons</artifactId>
-            <version>1.0.4</version>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
     <repositories>
@@ -43,6 +43,7 @@
             <url>https://git.sofka.com.co/api/v4/projects/1761/packages/maven</url>
         </repository>
     </repositories>
+
     <distributionManagement>
         <repository>
             <id>gitlab-maven</id>
@@ -54,5 +55,4 @@
             <url>https://git.sofka.com.co/api/v4/projects/1761/packages/maven</url>
         </snapshotRepository>
     </distributionManagement>
-
 </project>

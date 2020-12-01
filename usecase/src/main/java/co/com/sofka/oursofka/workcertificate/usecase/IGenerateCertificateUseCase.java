@@ -1,6 +1,6 @@
-package co.com.sofka.oursofka.workcertificate;
+package co.com.sofka.oursofka.workcertificate.usecase;
 
-import co.com.sofka.oursofka.workcertificate.model.WorkCertificateModel;
+import co.com.sofka.oursofka.workcertificate.usecase.model.WorkCertificateModel;
 import reactor.core.publisher.Mono;
 
 public interface IGenerateCertificateUseCase {

@@ -1,4 +1,4 @@
-package co.com.sofka.oursofka.workcertificate;
+package co.com.sofka.oursofka.workcertificate.domian;
 
 import java.util.Date;
 
