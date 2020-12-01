@@ -50,4 +50,14 @@ public class WorkCertificate {
     public void setCompania(String compania) {
         this.compania = compania;
     }
+
+    @Override
+    public String toString() {
+        return "WorkCertificate{" +
+                "fechaIngreso=" + fechaIngreso +
+                ", fechaActual=" + fechaActual +
+                ", tipoContrato='" + tipoContrato + '\'' +
+                ", compania='" + compania + '\'' +
+                '}';
+    }
 }

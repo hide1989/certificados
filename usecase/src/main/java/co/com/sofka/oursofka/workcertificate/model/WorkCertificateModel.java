@@ -1,4 +1,4 @@
-package co.com.sofka.oursofka.workcertificate.usecase.model;
+package co.com.sofka.oursofka.workcertificate.model;
 
 import lombok.Data;
 

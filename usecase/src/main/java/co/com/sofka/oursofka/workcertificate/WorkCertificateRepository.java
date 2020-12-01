@@ -1,4 +1,4 @@
-package co.com.sofka.oursofka.workcertificate.usecase;
+package co.com.sofka.oursofka.workcertificate;
 
 import co.com.sofka.oursofka.workcertificate.domian.WorkCertificate;
 import reactor.core.publisher.Mono;
