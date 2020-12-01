@@ -7,38 +7,52 @@
     <groupId>co.com.sofka.oursofka.workcertificate</groupId>
     <artifactId>workcertificate-usecase</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-core</artifactId>
-            <version>3.3.7.RELEASE</version>
+            <version>3.4.0</version>
         </dependency>
         <dependency>
-            <groupId>io.reactivex.rxjava2</groupId>
-            <artifactId>rxjava</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.7.0</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
+            <groupId>co.com.sofka.oursofka.workcertificate</groupId>
+            <artifactId>workcertificate-domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>co.com.sofka</groupId>
+            <artifactId>oursofka-back-commons</artifactId>
+            <version>1.0.4</version>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>gitlab-maven</id>
+            <url>https://git.sofka.com.co/api/v4/projects/1761/packages/maven</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>gitlab-maven</id>
+            <url>https://git.sofka.com.co/api/v4/projects/1761/packages/maven</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>gitlab-maven</id>
+            <url>https://git.sofka.com.co/api/v4/projects/1761/packages/maven</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

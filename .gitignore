@@ -1,6 +1,8 @@
 /domain/target
-/domain/domain.iml
+/domain/workcertificate-domain.iml
 /usecase/target
-/usecase/usecase.iml
+/usecase/workcertificate-usecase.iml
+/application/workcertificate-application.iml
+/application/target
 .idea
 
